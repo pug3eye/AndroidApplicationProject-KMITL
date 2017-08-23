@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PRECOIN</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="member">My Member</string>
+    <string name="profile">Profile</string>
+
+    <string name="action_profile">Profile</string>
+    <string name="register_member">REGISTER MEMBER</string>
+    <string name="redeem_reward">REDEEM REWARD</string>
+
+    <string name="hint_search">Search...</string>
+    <string name="app_quote">Store your card. Store your points.</string>
+
+    <string name="empty_member">NOT A MEMBER OF ANY SHOP.</string>
+    <string name="empty_reward">NO REWARD.</string>
+    <string name="empty_history">NO POINT HISTORY.</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>

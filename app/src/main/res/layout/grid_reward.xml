@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:contentPadding="8dp"
+    card_view:cardElevation="2dp"
+    card_view:cardCornerRadius="2dp" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/reward_image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Name"
+            android:id="@+id/reward_name"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Point"
+            android:id="@+id/point_use"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
